@@ -1,4 +1,4 @@
-package ehu.isad.controller.Utils;
+package ehu.isad.Utils;
 
 import javafx.scene.image.Image;
 
@@ -12,7 +12,8 @@ import java.net.URLConnection;
 
 public class Conection {
 
-    private String getStringFromUrl(String url) {
+    public static String getStringFromUrl(String url) {
+        System.out.println(url);
         String inputLine = "";
         URL conection;
 
