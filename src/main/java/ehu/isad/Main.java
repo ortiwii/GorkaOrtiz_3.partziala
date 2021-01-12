@@ -24,7 +24,7 @@ public class Main extends Application {
     stage = primaryStage;
     pantailakKargatu();
 
-    stage.setTitle("WhatWEB");
+    stage.setTitle("Azterketa Gorka Ortiz");
     stage.setScene(mainScene);
     stage.show();
   }
@@ -38,13 +38,8 @@ public class Main extends Application {
     mainKud.setMainApp(this);
   }
 
-
   public static void main(String[] args) {
     launch(args);
   }
 
-//  public void mainErakutsi() {
-//    stage.setScene(new Scene(mainUI));
-//    stage.show();
-//  }
 }
